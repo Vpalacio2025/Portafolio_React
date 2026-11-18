@@ -1,6 +1,6 @@
 /* TABLETS */
 
-@media (max-width: 900px) {
+@media (min-width: 768px) and (max-width: 1023.98px) {
   .hero {
     min-height: 550px;
   }
@@ -31,7 +31,7 @@
 
 /* CELULARES */
 
-@media (max-width: 600px) {
+@media (min-width: 480px) and (max-width: 767.98px) {
   .main-header {
     padding: 18px 5%;
     flex-wrap: wrap;
@@ -194,7 +194,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (min-width: 480px) and (max-width: 767.98px) {
   .experience {
     padding: 65px 5%;
   }
@@ -223,7 +223,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (min-width: 480px) and (max-width: 767.98px) {
   .contact-layout {
     grid-template-columns: 1fr;
   }
